@@ -36,7 +36,7 @@ body {
     color: var(--black-color);
 }
 
-.page-nav > .page-nav-list, .contacts {
+.page-nav > .page-nav-list, .contacts-list {
     list-style: none;
 }
 
@@ -52,13 +52,13 @@ body {
     text-decoration: underline;
 }
 
-.link-contacts {
+.contacts-link {
     color: #434455;
     text-decoration: none;
 }
 
-.contacts .link-contacts:hover,
-.contacts .link-contacts:focus {
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus {
     color: var(--hover-color);
 }
 
