@@ -41,7 +41,7 @@ body {
     text-transform: uppercase;
 }
 
-.color-logo-1 {
+.color-header-logo {
     color: var(--navy-blue-color);
 }
 
@@ -120,6 +120,7 @@ body {
 .list-text {
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--slate-color);
 }
 
@@ -151,7 +152,7 @@ body {
     background-color: var(--navy-blue-color);
 }
 
-.color-logo-2 {
+.color-footer-logo {
     color: var(--cloud-color);
 }
 
@@ -175,7 +176,7 @@ body {
     font-weight: 500;
     line-height: 1.5;
     font-size: 16px;
-    letter-spacing: 0.004em;
+    letter-spacing: 0.04em;
     text-align: center;
     color: var(--iris-color);
     cursor: pointer;
@@ -185,4 +186,8 @@ body {
 .filter-button:focus {
     background-color: var(--ocean-color);
     color: #FFFFFF;
+}
+
+.title-capitalize {
+    text-transform: capitalize;
 }
