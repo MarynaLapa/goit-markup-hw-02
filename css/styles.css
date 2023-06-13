@@ -55,7 +55,6 @@ body {
 .page-nav-link:hover,
 .page-nav-link:focus {
     color: var(--ocean-color);
-    text-decoration: underline;
 }
 
 .contacts {
@@ -187,6 +186,3 @@ body {
     color: #FFFFFF;
 }
 
-.title-capitalize {
-    text-transform: capitalize;
-}
