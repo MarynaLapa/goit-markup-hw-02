@@ -16,7 +16,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     color: #434455;
     background: var(--white-color);
 }
@@ -60,7 +59,7 @@ body {
 }
 
 .contacts {
-    font-style: normal
+    font-style: normal;
 }
 
 .link-contacts {
@@ -83,7 +82,7 @@ body {
 }
 
 .hero-title {
-    font-weight: var(--font-bold);
+    font-size: 700px;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
